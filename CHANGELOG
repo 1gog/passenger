@@ -1,6 +1,8 @@
 Release 5.2.1 (Not yet released)
 -------------
 
+ * Fixed an bounds issue in printing an error message.
+
 
 Release 5.2.0
 -------------

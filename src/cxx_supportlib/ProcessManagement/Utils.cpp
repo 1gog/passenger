@@ -434,7 +434,7 @@ closeAllFileDescriptors(int lastToKeepOpen, bool asyncSignalSafe) {
 
 void
 printExecError(const char **command, int errcode) {
-	char buf[1024];
+	char buf[1024] = { };
 	printExecError2(command, errcode, buf, sizeof(buf));
 }
 

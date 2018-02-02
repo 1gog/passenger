@@ -1,6 +1,8 @@
 Release 5.2.1 (Not yet released)
 -------------
 
+ * [Apache] Fixes startup when no top-level ServerName is set. Closes GH-2029.
+
 
 Release 5.2.0
 -------------
